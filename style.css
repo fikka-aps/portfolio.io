@@ -393,8 +393,15 @@ hr.title-line-black{
 }
 .card-content p{
     font-size: var(--p-font);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     font-weight: 500;
+}
+.card-content p.p-color{
+    font-size: var(--p-font);
+    color: var(--main-color);
+    margin-bottom: 35px;
+    font-weight: 600;
 }
 .link{
     margin-top: 20px;
@@ -424,7 +431,7 @@ hr.title-line-black{
         --h1-font: 4.6rem;
         --h2-font: 2.6rem;
         --h3-font: 1.7rem;
-        --p-font:1.2rem;
+        --p-font:1.4rem;
     }
     /* nav{
         padding: 15px 8%;
